@@ -24,7 +24,7 @@ export function CardMeal({ meal, ...rest }: CardMealProps) {
       <ContainerTimeText>
         <TimeText>{meal.time}</TimeText>
       </ContainerTimeText>
-      <NameText>{meal.name}</NameText>
+      <NameText numberOfLines={1}>{meal.name}</NameText>
       <DietSign variant={meal.isInDiet ? 'success' : 'danger'} />
     </CardMealLayout>
   )

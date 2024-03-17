@@ -11,11 +11,11 @@ export const CardMealLayout = styled(TouchableOpacity).attrs({
   flex-direction: row;
   align-items: center;
   margin-bottom: 8px;
+  gap: 16px;
 `
 
 export const ContainerTimeText = styled.View`
   padding-right: 16px;
-  margin-right: 16px;
   border-right-width: 1px;
   border-style: solid;
   border-color: ${(props) => props.theme.colors['gray-400']};
